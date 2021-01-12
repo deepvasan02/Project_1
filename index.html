@@ -21,12 +21,23 @@ img{
 border-radius:16px;
 border: 2px solid black;
 }
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
  </style>
 
 <body style="color:#708090;font-family: Times New Roman,serif; font-size:30px;backgroung-image:">
     
-    <img src="123.jpg" alt="Deep"   width="400" height="400">  
+    <img src="123.jpg" alt="Deep"   width="400" height="300">  
 <h1 style="text-align:center;">I am Deep</h1>
     <h3>Nice to meet you...</h3>
         <h2 style="color:black;">About me:</h2>
@@ -34,20 +45,34 @@ border: 2px solid black;
         <h3>I am from Kutch, Gujarat.</h3>
    <h2 style="color:black;">Learning Now :</h2>
  <h3 style="text-align:center;">Python Programming</h3>
-<img src="python.jpg" alt="Music" style="width:700px;height:480px;" >
+<img src="python.jpg" alt="Music" style="width:450px;height:300px;" >
 
  <h3 style="text-align:center;">HTML and CSS</h3>
-<img src="html.jfif" alt="Music" style="width:700px;height:480px;" >
+<img src="html.jfif" alt="Music" style="width:450px;height:300px;" >
 
  <h3 style="text-align:center;">C++ Programming</h3>
-<img src="cpp.png" alt="Music" style="width:700px;height:480px;" >
+<img src="cpp.png" alt="Music" style="width:450px;height:300px;" >
 
     
    <h2 style="color:black;">My hobbies include: </h2>
    <h3 style="text-align:center;">Music</h3>
-<img src="wsM.gif" alt="Music" style="width:700px;height:480px;" >
+<img src="wsM.gif" alt="Music" style="width:450px;height:300px;" >
 <h3 style="text-align:center;">Table Tennis</h3>
-<img src="8ZJk.gif" alt="Music"   style="width:700px;height:480px;">
+<img src="8ZJk.gif" alt="Music"   style="width:450px;height:300px;">
+
+ <div class="contact">
+        <h2 style="color:black;">Contact me at:</h2>
+        <h3> deepvasan10@gmail.com</h3>
+                </div>
+        <div class="icons"><a href="https://github.com/deepvasan02/" target="blank">
+
+                <img src="giti.png" style="width: 50px;height: 50px;">
+</a>
+
+            </a>
+        </div>
+    </div>
+
     
 </body>
 
